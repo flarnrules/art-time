@@ -49,3 +49,22 @@ ENV/
 
 # mkdocs documentation
 /site
+
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor directories/files
+.idea/
+*.swp
+*.swo
+*.sublime*
+.vscode/
+
+# Ignore npm debug logs and .env
+npm-debug.log
+.env
+
